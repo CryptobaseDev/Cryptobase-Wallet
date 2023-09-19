@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExchangeQuote should render with loading props 1`] = `
+<WithTheme(CardComponent)
+  marginRem={
+    [
+      0,
+      1,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginRight": 22,
+        }
+      }
+    >
+      <Memo(CryptoIconComponent)
+        currencyCode="BTC"
+        sizeRem={1.5}
+        walletId="123456789"
+      />
+    </View>
+    <View
+      style={
+        {
+          "flex": 1,
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+            {},
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <WithTheme(EdgeTextComponent)
+            style={
+              {
+                "fontFamily": "Quicksand-Medium",
+              }
+            }
+          >
+            BTC
+          </WithTheme(EdgeTextComponent)>
+        </View>
+        <View
+          style={
+            {
+              "marginLeft": 6,
+              "textAlign": "right",
+            }
+          }
+        >
+          <WithTheme(EdgeTextComponent)
+            style={
+              {
+                "fontFamily": "Quicksand-Medium",
+                "textAlign": "right",
+              }
+            }
+          >
+            1 BTC
+          </WithTheme(EdgeTextComponent)>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+            {},
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <WithTheme(EdgeTextComponent)
+            style={
+              {
+                "color": "#A4C7DF",
+                "flex": 1,
+                "fontSize": 17,
+                "marginTop": 6,
+              }
+            }
+          >
+            myWallet
+          </WithTheme(EdgeTextComponent)>
+        </View>
+        <View
+          style={
+            {
+              "marginLeft": 6,
+              "textAlign": "right",
+            }
+          }
+        >
+          <WithTheme(EdgeTextComponent)
+            style={
+              {
+                "color": "#A4C7DF",
+                "fontSize": 17,
+                "marginTop": 6,
+              }
+            }
+          >
+            40000 USD
+          </WithTheme(EdgeTextComponent)>
+        </View>
+      </View>
+    </View>
+  </View>
+  <React.Fragment>
+    <View>
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+            {
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 17,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <WithTheme(EdgeTextComponent)
+            style={
+              {
+                "fontSize": 17,
+                "marginTop": 6,
+              }
+            }
+          >
+            Max network fee
+          </WithTheme(EdgeTextComponent)>
+        </View>
+        <View
+          style={
+            {
+              "marginLeft": 6,
+              "textAlign": "right",
+            }
+          }
+        >
+          <WithTheme(EdgeTextComponent)
+            style={
+              {
+                "fontSize": 17,
+                "marginTop": 6,
+              }
+            }
+          >
+            1
+          </WithTheme(EdgeTextComponent)>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+            {},
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <WithTheme(EdgeTextComponent)
+            style={
+              {
+                "fontSize": 17,
+                "marginTop": 6,
+              }
+            }
+          >
+            Total Amount
+          </WithTheme(EdgeTextComponent)>
+        </View>
+        <View
+          style={
+            {
+              "marginLeft": 6,
+              "textAlign": "right",
+            }
+          }
+        >
+          <WithTheme(EdgeTextComponent)
+            style={
+              {
+                "fontSize": 17,
+                "marginTop": 6,
+              }
+            }
+          >
+            40001 USD
+          </WithTheme(EdgeTextComponent)>
+        </View>
+      </View>
+    </View>
+  </React.Fragment>
+</WithTheme(CardComponent)>
+`;

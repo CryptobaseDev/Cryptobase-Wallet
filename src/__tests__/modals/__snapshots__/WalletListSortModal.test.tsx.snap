@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WalletListSortModalComponent should render with loading props 1`] = `
+<ListModal
+  bridge={
+    {
+      "on": [Function],
+      "onResult": [Function],
+      "reject": [Function],
+      "remove": [Function],
+      "resolve": [Function],
+    }
+  }
+  fullScreen={false}
+  rowComponent={[Function]}
+  rowsData={
+    [
+      [
+        "manual",
+        "Manual sort",
+      ],
+      [
+        "name",
+        "Sort by name",
+      ],
+      [
+        "currencyCode",
+        "Sort by currency code",
+      ],
+      [
+        "currencyName",
+        "Sort by currency name",
+      ],
+      [
+        "highest",
+        "Sort by highest value",
+      ],
+      [
+        "lowest",
+        "Sort by lowest value",
+      ],
+    ]
+  }
+  textInput={false}
+  title="Sort Wallets"
+/>
+`;

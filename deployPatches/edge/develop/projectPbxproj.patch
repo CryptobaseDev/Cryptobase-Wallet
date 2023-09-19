@@ -1,0 +1,26 @@
+diff --git a/ios/edge.xcodeproj/project.pbxproj b/ios/edge.xcodeproj/project.pbxproj
+index 89aff8e06..da19fac6b 100644
+--- a/ios/edge.xcodeproj/project.pbxproj
++++ b/ios/edge.xcodeproj/project.pbxproj
+@@ -429,8 +429,8 @@
+ 					"-ObjC",
+ 					"-lc++",
+ 				);
+-				PRODUCT_BUNDLE_IDENTIFIER = com.cryptobase.atm.app;
+-				PRODUCT_NAME = Edge;
++				PRODUCT_BUNDLE_IDENTIFIER = app.edge.develop;
++				PRODUCT_NAME = "Edge Develop";
+ 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+ 				SUPPORTS_MACCATALYST = NO;
+ 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+@@ -461,8 +461,8 @@
+ 					"-ObjC",
+ 					"-lc++",
+ 				);
+-				PRODUCT_BUNDLE_IDENTIFIER = com.cryptobase.atm.app;
+-				PRODUCT_NAME = Edge;
++				PRODUCT_BUNDLE_IDENTIFIER = app.edge.develop;
++				PRODUCT_NAME = "Edge Develop";
+ 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+ 				SUPPORTS_MACCATALYST = NO;
+ 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;

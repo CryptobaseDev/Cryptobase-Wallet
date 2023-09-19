@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CryptoExchangeSuccessComponent should render with loading props 1`] = `
+<NotificationSceneWrapper
+  background="theme"
+  navigation={
+    {
+      "addListener": [Function],
+      "canGoBack": [Function],
+      "dispatch": [Function],
+      "getId": [Function],
+      "getParent": [Function],
+      "getState": [Function],
+      "goBack": [Function],
+      "isFocused": [Function],
+      "navigate": [Function],
+      "pop": [Function],
+      "popToTop": [Function],
+      "push": [Function],
+      "removeListener": [Function],
+      "replace": [Function],
+      "reset": [Function],
+      "setOptions": [Function],
+      "setParams": [Function],
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <WithTheme(EdgeTextComponent)
+      style={
+        {
+          "fontSize": 28,
+          "fontWeight": "600",
+          "marginBottom": 28,
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      Congratulations!
+    </WithTheme(EdgeTextComponent)>
+    <WithTheme(EdgeTextComponent)
+      numberOfLines={2}
+      style={
+        {
+          "fontSize": 17,
+          "fontWeight": "600",
+          "marginBottom": 34,
+          "maxWidth": 225,
+          "textAlign": "center",
+        }
+      }
+    >
+      Your exchange has been successfully completed!
+    </WithTheme(EdgeTextComponent)>
+    <WithTheme(EdgeTextComponent)
+      numberOfLines={3}
+      style={
+        [
+          {
+            "fontSize": 17,
+            "fontWeight": "600",
+            "marginBottom": 34,
+            "maxWidth": 225,
+            "textAlign": "center",
+          },
+          {
+            "maxWidth": 213,
+          },
+        ]
+      }
+    >
+      Exchanges may take a few minutes and up to 24 hours to process.
+    </WithTheme(EdgeTextComponent)>
+    <Fade
+      visible={false}
+    >
+      <MainButton
+        label="Done"
+        onPress={[Function]}
+        type="secondary"
+      />
+    </Fade>
+  </View>
+</NotificationSceneWrapper>
+`;

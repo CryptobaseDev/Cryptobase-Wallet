@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuyCrypto should render with some props 1`] = `
+[
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={false}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "opacity": 1,
+        "paddingBottom": 22,
+        "paddingLeft": 22,
+        "paddingRight": 22,
+        "paddingTop": 22,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 22,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "height": 51,
+              "marginBottom": 6,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 6,
+              "width": 51,
+            }
+          }
+        />
+        <Text
+          adjustsFontSizeToFit={true}
+          minimumFontScale={0.65}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              {
+                "fontFamily": "Quicksand-Medium",
+                "marginVertical": 6,
+              },
+              null,
+            ]
+          }
+        >
+          Buy Bitcoin
+        </Text>
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginVertical": 11,
+      }
+    }
+  >
+    <Text
+      adjustsFontSizeToFit={true}
+      minimumFontScale={0.65}
+      numberOfLines={1}
+      style={
+        [
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Quicksand-Regular",
+            "fontSize": 22,
+            "includeFontPadding": false,
+          },
+          {
+            "fontSize": 28,
+          },
+          null,
+        ]
+      }
+    >
+      No transactions yet
+    </Text>
+  </View>,
+]
+`;

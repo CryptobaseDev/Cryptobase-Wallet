@@ -1,0 +1,44 @@
+{
+  "edge": {
+    "productName": "Edge Wallet",
+    "xcodeProject": "edge.xcodeproj",
+    "xcodeWorkspace": "edge.xcworkspace",
+    "xcodeScheme": "edge",
+    "androidKeyStore": "edge-release-keystore.jks",
+    "androidKeyStoreAlias": "edge",
+    "androidKeyStorePassword": "xxxxxxxxx",
+    "androidTask": "bundleRelease",
+    "hockeyAppToken": "xxxxx",
+    "hockeyAppTags": "internal",
+    "bugsnagApiKey": "xxxxxxxxxx",
+    "appCenterApiToken": "xxxxxxxxxx",
+    "appCenterGroupName": "xxxxxxxxxx",
+    "appCenterDistroGroup": "xxxxxxxxxx",
+    "appleDeveloperTeamId": "xxxxxxxxxx",
+    "appleDeveloperTeamName": "edge",
+    "bundleId": "com.cryptobase.atm.app",
+    "bundleToolPath": "/Users/jenkins/bin/bundletool-all-1.11.2.jar",
+    "ios": {
+      "master": {
+        "hockeyAppId": "xxxxxxxxx"
+      },
+      "develop": {
+        "hockeyAppId": "xxxxxxxxx"
+      }
+    },
+    "android": {
+      "master": {
+        "hockeyAppId": "xxxxxxxxx"
+      },
+      "develop": {
+        "hockeyAppId": "xxxxxxxxx"
+      }
+    },
+    "envJson": {
+      "yolo": {
+        "YOLO_USERNAME": "",
+        "YOLO_PASSWORD": ""
+      }
+    }
+  }
+}

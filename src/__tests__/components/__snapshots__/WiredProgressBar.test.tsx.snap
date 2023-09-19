@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar should render with loading props 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+    }
+  }
+>
+  <ForwardRef(AnimatedComponentWrapper)
+    style={
+      [
+        {
+          "backgroundColor": "#00f1a2",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "top": -3,
+          "zIndex": 100,
+        },
+        {
+          "width": "19.9%",
+        },
+      ]
+    }
+  />
+</View>
+`;

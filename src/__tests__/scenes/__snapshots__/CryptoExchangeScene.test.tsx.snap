@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CryptoExchangeComponent should render with loading props 1`] = `
+<React.Fragment>
+  <Memo(SceneHeaderComponent)
+    title="Exchange"
+    underline={true}
+  />
+  <KeyboardAwareScrollView
+    contentContainerStyle={
+      [
+        {
+          "paddingBottom": 0,
+        },
+        {
+          "alignItems": "center",
+          "paddingTop": 11,
+        },
+      ]
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={75}
+    extraScrollHeight={0}
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="always"
+    style={
+      {
+        "flex": 1,
+        "marginBottom": 22,
+      }
+    }
+    viewIsInsideTabBar={false}
+  >
+    <Memo(LineTextDividerComponent)
+      lowerCased={true}
+      title="From"
+    />
+    <Memo(Connect(WithTheme(CryptoExchangeFlipInputWrapperComponent)))
+      buttonText="Select Source Wallet"
+      fiatPerCrypto="500"
+      focusMe={[Function]}
+      headerText="Exchange from BTC Wallet"
+      isFocused={true}
+      launchWalletSelector={[Function]}
+      onCryptoExchangeAmountChanged={[Function]}
+      onNext={[Function]}
+      overridePrimaryExchangeAmount=""
+      primaryCurrencyInfo={
+        {
+          "displayCurrencyCode": "BTC",
+          "exchangeCurrencyCode": "BTC",
+        }
+      }
+      secondaryCurrencyInfo={
+        {
+          "displayCurrencyCode": "USD",
+          "displayDenomination": {
+            "multiplier": "100",
+            "name": "USD",
+            "symbol": "$",
+          },
+          "exchangeCurrencyCode": "iso:USD",
+          "exchangeDenomination": {
+            "multiplier": "100",
+            "name": "USD",
+            "symbol": "$",
+          },
+          "walletId": "",
+        }
+      }
+      walletId=""
+    >
+      <MiniButton
+        alignSelf="center"
+        label="MAX"
+        marginRem={
+          [
+            1.2,
+            0,
+            0,
+          ]
+        }
+        onPress={[Function]}
+      />
+    </Memo(Connect(WithTheme(CryptoExchangeFlipInputWrapperComponent)))>
+    <Memo(LineTextDividerComponent)
+      lowerCased={true}
+      title="To"
+    />
+    <Memo(Connect(WithTheme(CryptoExchangeFlipInputWrapperComponent)))
+      buttonText="Select Receiving Wallet"
+      fiatPerCrypto="500"
+      focusMe={[Function]}
+      headerText="Exchange to ETH Wallet"
+      isFocused={false}
+      launchWalletSelector={[Function]}
+      onCryptoExchangeAmountChanged={[Function]}
+      onNext={[Function]}
+      overridePrimaryExchangeAmount="1000"
+      primaryCurrencyInfo={
+        {
+          "displayCurrencyCode": "ETH",
+          "displayDenomination": {
+            "multiplier": "100000000",
+            "name": "Ethereum",
+          },
+          "exchangeCurrencyCode": "ETH",
+          "exchangeDenomination": {
+            "multiplier": "10000000",
+            "name": "Gwei",
+          },
+        }
+      }
+      secondaryCurrencyInfo={
+        {
+          "displayCurrencyCode": "USD",
+          "displayDenomination": {
+            "multiplier": "100",
+            "name": "USD",
+            "symbol": "$",
+          },
+          "exchangeCurrencyCode": "iso:USD",
+          "exchangeDenomination": {
+            "multiplier": "100",
+            "name": "USD",
+            "symbol": "$",
+          },
+          "walletId": "",
+        }
+      }
+      walletId=""
+    />
+  </KeyboardAwareScrollView>
+</React.Fragment>
+`;
